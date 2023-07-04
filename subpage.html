@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="layout.css" media="screen">
+    
+    <title>Login Page</title>
+    
+       
+    
+</head>
+
+<body>
+    <div id="header">
+        <div id="first-div">
+        <h2 class="heading">Coinbase</h2>
+    </div>
+    <div id="second-div">
+        <nav id="navbars">
+            <ul>
+                <li id="menu">product</li>
+                <li id="menu-2">Help</li>
+                <li id="menu-3">Prices</li>
+                <li id="menu-4">Sign in</li>
+            </ul>
+        </nav>
+    </div>
+    <div id="third-div">
+    <button id="signup">Sign Up</button>
+</div>
+
+        </div>
+
+    </div>
+
+    <div id="submenu">
+        <h2 class="my-h2">Buy/Sell Cryptocurrency</h2>
+        <h2 class="my-h2">Another action</h2>
+        <h2 class="my-h2">Action</h2>
+        <h2 class="my-h2">Another Action</h2>
+        <h2 class="my-h2">Something else here</h2>
+
+    </div>
+
+
+    <div id="content">
+        <div id="sub-content1">
+
+            <p class="para-z">by coinbase pro</p>
+            <h2 class="head-h">Sign in to your Coinbase account to authorize Coinbase pro</h2>
+        </div>
+        <hr>
+        <div id="sub-content2">
+            <p>you will redirected to <a href="">https://google.com</a> after the authorization</p>
+
+        </div>
+        <hr>
+        <div id="sub-content3">
+            <form id="form">
+                <h2 class="utility-classes">E-mail</h2><label for="email"><input type="email" placeholder="E-mail"
+                        name="mail"></label>
+                <h2 class="utility-classes">Password </h2><label for="password"><input type="password"
+                        placeholder="password" name="code"></label>
+            </form>
+        </div>
+        <hr>
+        <div id="sub-content4">
+            <div id="bar-i">
+            <button class="signin">SIGN IN</button>
+        </div>
+        <div id="bar-z">
+            <a href="" class="para-i">Create An Account . Forget Password?</a>
+        </div>
+        </div>
+    </div>
+    
+        
+    
+    <script>
+        document.getElementById("menu").addEventListener("click",function(){
+            document.getElementById("submenu").style.display="inline-block";
+            
+            
+            
+        });
+        document.getElementById("menu").addEventListener("mouseleave",function(){
+            document.getElementById("submenu").style.display="none";
+            
+            
+            
+        });
+        document.getElementById("menu").addEventListener("click",function(){
+            document.getElementById("content").style.transform="translate(374px,268px)";
+            document.getElementById("content").style.transition="all 0.5s ease-in 0.5s";
+        });
+        document.getElementById("menu").addEventListener("mouseleave",function(){
+            document.getElementById("content").style.transform="translate(374px,77px)";
+            document.getElementById("content").style.transition="all 0.5s ease-in 0.5s";
+        });
+    </script>
+</body>
+
+</html>

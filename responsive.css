@@ -1,0 +1,409 @@
+@media(max-width:480px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .main-heading {
+        display: block;
+
+        padding: 0px;
+        text-align: center;
+        font-size: 45px;
+
+    }
+
+    .para1 {
+        display: block;
+        padding: 10px 15px;
+
+    }
+
+    #container {
+        display: block;
+        margin: 0px;
+        height: auto;
+        width: auto;
+    }
+
+    #main-container {
+        display: block;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    #left-corner {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #mid-corner {
+
+        margin: 30px;
+        width: auto;
+        height: auto;
+    }
+
+    #navbar ul {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    #navbar ul li {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #right-corner {
+        display: block;
+        height: auto;
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #right-corner h4 {
+        padding-bottom: 12px;
+    }
+
+    #right-corner .btn {
+        width: 140px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    #main-container2 {
+        display: block;
+        height: auto;
+        width: auto;
+        /* height: auto; */
+        /* width: auto; */
+    }
+
+    #left-corner2 {
+        display: block;
+        height: auto;
+        width: auto;
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    #mid-corner2 {
+        display: block;
+        height: auto;
+        width: auto;
+        margin: 0px;
+
+    }
+
+    #navbar2 {
+        display: block;
+        text-align: center;
+        width: auto;
+        height: auto;
+
+    }
+
+    #navbar2 ul {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #navbar2 ul li {
+
+        padding-bottom: 12px;
+    }
+
+    #footer {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .heading {
+        font-size: 20px;
+        display: block;
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .para {
+        font-size: 7px;
+        display: block;
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .btu {
+
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .s-heading {
+        display: block;
+        width: auto;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    #foot-container {
+        display: block;
+        padding: 0px;
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .utility-class {
+        display: block;
+        width: auto;
+        height: auto;
+        font-size: x-large;
+    }
+
+    #foot-container .para2 {
+        display: block;
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    #sub-foot-container {
+        display: block;
+        width: auto;
+        height: auto;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    #sub-foot-container ol {
+        display: block;
+        margin-left: 20px;
+        line-height: 30px;
+        width: auto;
+        height: auto;
+        font-size: 13px;
+    }
+
+    #sub-foot-container .para3 {
+        display: block;
+        font-size: 13px;
+        width: auto;
+        height: auto;
+        text-align: justify;
+        padding: 5px
+    }
+}
+
+@media(max-width:768px) and (min-width:481px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .main-heading {
+        display: block;
+        text-align: center;
+        padding: 0px;
+        font-size: xx-large;
+        width: auto;
+        height: auto;
+
+    }
+
+    .para1 {
+        display: block;
+        padding: 0px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        width: auto;
+        height: auto;
+
+
+    }
+
+    #container {
+        display: block;
+
+        margin: 0px;
+
+
+        width: auto;
+        height: auto;
+
+    }
+    #main-container{
+        display: block;
+    width: auto;
+    height: auto;
+    }
+    #left-corner{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #mid-corner{
+        display: block;
+        width: auto;
+        height: auto;
+        margin-top: 25px;
+    }
+    #navbar{
+        padding: 0px;
+    }
+    #right-corner{
+        width: auto;
+    height: auto;
+    justify-content: center;
+    margin: 20px;
+
+    }
+    #right-corner .heading4{
+        margin-right: 20px;
+
+    }
+
+    #main-container2{
+        display: block;
+        width: auto;
+        height: auto;
+
+    }
+    #left-corner2{
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #mid-corner2{
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0px;
+    }
+    #navbar2{
+        margin-bottom: 20px;
+    }
+    #footer{
+        margin: 0px;
+    }
+    #foot-container{
+        padding: 10px;
+    margin-top: 40px;
+    text-align: justify;
+
+    }
+    .para2{
+        margin-top: 20px;
+    }
+    .utility-class{
+        font-size: 34px;
+    }
+    #sub-foot-container{
+        padding: 30px;
+        margin-top: 100px;
+        text-align: justify;
+    }
+
+    #sub-foot-container ol{
+        margin-top: 20px;
+    }
+    .para3{
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:1279px) and (min-width:769px){
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    .main-heading{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .para1{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    #container{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    #main-container{
+        width: auto;
+        height: auto;
+    }
+    #left-corner{
+        width: auto;
+        height: auto;
+    }
+    #navbar{
+        height: auto;
+        width: auto;
+    }
+    #right-corner{
+        width: auto;
+        height: auto;
+    }
+    #main-container2{
+        width: auto;
+        height: auto;
+    }
+    #left-corner2{
+        width: auto;
+        height: auto;
+
+    }
+    #mid-corner2 {
+        width: auto;
+        height: auto;
+    }
+    #navbar2 ul li{
+        padding-left: 10px;
+    }
+
+
+}

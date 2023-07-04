@@ -1,0 +1,284 @@
+@media(max-width:480px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    #header{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    #first-div{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+    #second-div{
+        width: auto;
+        height: auto;
+        
+    }
+    #navbars ul{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #navbars ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    #third-div{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #signup{
+        display: inline-block;
+        width: 119px;
+        height: 60px;
+        font-size: 25px;
+    }
+    #submenu{
+        
+    z-index: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    transform: translate(332px, -260px);
+    
+    }
+    .my-h2{
+        margin: 0px;
+    }
+    #content{
+        display: block;
+    transform: translate(0px, 0px);
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    }
+    #sub-content1{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .para-z{
+        margin-bottom: 20px;
+    }
+    .head-h{
+        margin-bottom: 20px;
+    }
+    #sub-content2{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #sub-content3{
+        display: block;
+        margin: 0px;
+        width: auto;
+        height: auto;
+    }
+    #form{
+        display: block;
+        width: auto;
+        height: auto;
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #form input{
+        margin: 5px 0px;
+
+    }
+    #sub-content4{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    #bar-i{
+        display: block;
+        text-align: center;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .signin{
+        display: inline-block;
+    margin: 0px;
+    /* width: 40px; */
+    width: 120px;
+    height: 35px;
+    }
+    #bar-z{
+        display: block;
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+    
+        
+    
+}
+
+@media(max-width:768px) and (min-width:481px){
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }  
+    #header{
+        display: block;
+        width: auto;
+        height: auto;
+    } 
+    #first-div{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 35px;
+    }
+    #second-div{
+        width: auto;
+        height: auto;
+        
+    }
+    #navbars ul{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #navbars ul li{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    #third-div{
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    #signup{
+        display: inline-block;
+        width: 119px;
+        height: 60px;
+        font-size: 25px;
+    }
+    #submenu{
+        
+        z-index: 0;
+        width: auto;
+        height: auto;
+        position: absolute;
+        transform: translate(426px, -260px);
+        
+        }
+        #content{
+            display: block;
+        transform: translate(0px, 0px);
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        height: auto;
+        }
+        #sub-content1{
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .para-z{
+            margin-bottom: 20px;
+        }
+        .head-h{
+            margin-bottom: 20px;
+        }
+        #sub-content2{
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #sub-content3{
+            display: block;
+            margin: 0px;
+            width: auto;
+            height: auto;
+        }
+        #form{
+            display: block;
+            width: auto;
+            height: auto;
+            font-size: 12px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #form input{
+            margin: 5px 0px;
+    
+        }
+        #sub-content4{
+            display: block;
+            width: auto;
+            height: auto;
+        }
+        #bar-i{
+            display: block;
+            text-align: center;
+            height: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .signin{
+            display: inline-block;
+        margin: 0px;
+        /* width: 40px; */
+        width: 120px;
+        height: 35px;
+        }
+        #bar-z{
+            display: block;
+            display: block;
+            width: auto;
+            height: auto;
+            text-align: center;
+            margin-bottom: 20px;
+        
+        }
+        
+            
+
+}
